@@ -26,7 +26,7 @@ A real-time multiplayer game with authoritative server and client-side interpola
    ```bash
    python client.py
    ```
-   You can specify a custom server URI if needed:
+   We can specify a custom server URI if needed:
    ```bash
    python client.py ws://localhost:8765
    ```
@@ -46,7 +46,7 @@ A real-time multiplayer game with authoritative server and client-side interpola
   - **Downlink:** Delays state broadcasts by 200ms.
   - **Uplink:** Delays processing client inputs by 200ms.
 - **Tick Rate:** Runs at **120 ticks per second** for high-precision simulation.
-- **Coin Logic:** Spawns 5 coins on start. New coins spawn every 10 seconds.
+- **Coin Logic:** Spawns 5 coins on start. New coins spawn every 5 seconds.
 - **Auto-Shutdown:** Server automatically closes when all players disconnect.
 - **Protocol:** Uses WebSockets for communication. JSON messages for state updates.
 
